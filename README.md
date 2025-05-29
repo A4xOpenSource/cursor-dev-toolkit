@@ -8,3 +8,5 @@
 例子：
 sh code_stats_flexible.sh -s "2025-06-01 19:25:00"
 默认 2025-06-01 00:00:00
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/A4xOpenSource/cursor-dev-toolkit)
