@@ -25,11 +25,11 @@ show_help() {
     echo "  -h, --help         显示此帮助信息"
     echo
     echo "默认行为:"
-    echo "  如果不指定任何参数，默认分析 2025-05-27 19:25:00 之后的提交"
+    echo "  如果不指定任何参数，默认分析 2025-06-01 00:00:00 之后的提交"
     echo
     echo "示例:"
     echo "  $0                                    # 使用默认时间"
-    echo "  $0 --since \"2025-05-27 19:25:00\""
+    echo "  $0 --since \"2025-06-01 00:00:00\""
     echo "  $0 --since \"2024-01-01\" --until \"2024-12-31\""
     echo "  $0 --all"
 }
@@ -44,7 +44,7 @@ fi
 SINCE_DATE=""
 UNTIL_DATE=""
 ANALYZE_ALL=true
-DEFAULT_SINCE_DATE="2025-05-27 19:25:00"
+DEFAULT_SINCE_DATE="2025-06-01 00:00:00"
 
 # 保存原始参数数量
 ORIGINAL_ARGS_COUNT=$#
